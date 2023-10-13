@@ -1,3 +1,5 @@
+package com.smartrader;
+
 import org.zeromq.SocketType;
 import org.zeromq.ZMQ;
 import org.zeromq.ZContext;
