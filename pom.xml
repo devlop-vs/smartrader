@@ -19,7 +19,7 @@
     <build>
         <resources>
             <resource>
-                <directory>${basedir}</directory>
+                <directory>${basedir}/src/main/resources</directory>
                 <includes>
                     <include>**/*.properties</include>
                 </includes>
@@ -119,6 +119,12 @@
             <version>3.12.14</version>
         </dependency>
        
+    
+      <dependency>
+        <groupId>org.assertj</groupId>
+        <artifactId>assertj-core</artifactId>
+        <version>3.13.2</version>
+      </dependency>
     </dependencies>
     <!-- If you can't find the latest snapshot -->
     <repositories>
