@@ -31,7 +31,7 @@ public class SymbolEventListener implements EventListener{
             MongoCollection<Document> collection = this.mdb.getCollection(symbolname + "_10S");
 
             // 转化报价的时间节点
-            SimpleDateFormat sdf = new SimpleDateFormat( " yyyy-MM-dd HH:mm:ss " ); 
+            SimpleDateFormat sdf = new SimpleDateFormat( "yyyy.MM.dd HH:mm:ss" );
             Date dt;
             try {
                 dt = sdf.parse(this.sDateTime);
