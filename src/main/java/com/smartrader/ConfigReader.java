@@ -8,7 +8,7 @@ import java.io.InputStream;
 
 public class ConfigReader {
     public static String dbUrl = "mongodb://localhost:27017";
-    public static String zmqAddress = "tcp://192.168.100.3:9999";
+    public static String zmqAddress = "tcp://192.168.100.42:9999";
 
     public static void load() {
         // 使用类加载器加载配置文件
